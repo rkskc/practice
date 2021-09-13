@@ -1,0 +1,7 @@
+Tiny project to just have on hand.
+
+/echo
+	Responds with "Hello, World!"
+
+/echo?echo=test
+	Responds with "test"

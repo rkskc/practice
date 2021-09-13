@@ -1,0 +1,9 @@
+# intellij
+*/.idea
+
+# gradle
+*/build
+*/.gradle
+
+# maven
+*/target

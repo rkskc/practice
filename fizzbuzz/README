@@ -1,0 +1,7 @@
+FizzBuzz. Runs for numbers 1 to 40:
+If divisible by 3, print "Fizz"
+If divisible by 5, print "Buzz"
+If divisible by 15, print "FizzBuzz"
+Otherwise, POST localhost:8080/echo and print the response.
+
+Did this to have an example handy for Wiremock; see the tests.
