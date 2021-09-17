@@ -1,9 +1,12 @@
 # intellij
-*/.idea
+**/.idea
 
 # gradle
-*/build
-*/.gradle
+**/build
+**/.gradle
 
 # maven
-*/target
+**/target
+
+# node
+**/node_modules
