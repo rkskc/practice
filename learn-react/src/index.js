@@ -8,13 +8,14 @@ import Comment from './Comment';
 const App = () => {
 	return (
 		<div className="ui container comments">
-			<ApprovalCard />
-			<Comment
-				author={Faker.internet.userName()}
-				avatar={Faker.image.avatar()}
-				date="3 minutes ago"
-				text="Hello, World!"
-			/>
+			<ApprovalCard>
+				<Comment
+					author={Faker.internet.userName()}
+					avatar={Faker.image.avatar()}
+					date="3 minutes ago"
+					text="Hello, World!"
+				/>
+			</ApprovalCard>
 			<Comment
 				author={Faker.internet.userName()}
 				avatar={Faker.image.avatar()}
